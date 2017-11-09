@@ -2,37 +2,6 @@
  * Created by Administrator on 2017/7/7.
  */
 Ext.Ajax.timeout = 90000;
-//override orgmodel 增加 hrcode mdm code
-Ext.define('component.model.OrgModel', {
-    extend: 'Ext.data.Model',
-    fields: [
-        {
-            name: 'id'
-        }, {
-            name: 'hrCode'
-        },{
-            name:'mdmCode'
-        },
-        {
-            name:'pid'
-        },
-        {
-            name: 'name'
-        },
-        {
-            name: 'shortName'
-        },
-        {
-            name:'children'
-        },
-        {
-            name: 'leaf'
-        },
-        {
-            name:'path'
-        }
-    ]
-});
 Ext.apply(Ext.form.VTypes, {
     daterange : function(val, field) {
         var date = field.parseDate(val);
@@ -739,37 +708,4 @@ Ext.example = function(){
         }
     };
 }();
-
-
-//----------------------------
-
-Ext.namespace("com.shinfotech.platform.base.common");
-/**
- * 与分页相关的基础信息
- */
-com.shinfotech.platform.base.common.paging = {
-    start : 0, //起始地址
-    pageSize : 15, //页大小
-    displayMsg : '第 {0} 条到 {1} 条，共 {2} 条',
-    emptyMsg : "没有符合条件的记录!"
-}
-/**
- * 日志操作类型
- */
-com.shinfotech.platform.base.common.BizLogOpType = {
-    "01" : "登录认证管理日志",
-    "02" : "帐号/权限管理日志",
-    "03" : "配置管理类日志",
-    "04" : "业务访问日志",
-    "05" : "其他日志"
-}
-
-/**
- * 日志操作结果
- */
-com.shinfotech.platform.base.common.BizLogResult = {
-    "01" : "成功",
-    "02" : "失败",
-    "03" : "异常"
-}
 

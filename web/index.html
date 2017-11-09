@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>sample</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/bTabs-master/b.tabs.css" type="text/css">
+    <style type="text/css">
+        div.menuSideBar{}
+        div.menuSideBar li.nav-header {
+            font-size: 14px;
+            padding: 3px 15px;
+        }
+        div.menuSideBar .nav-list > li > a,
+        div.menuSideBar .dropdown-menu li a {
+            -webkit-border-radius: 0px;
+            -moz-border-radius: 0px;
+            -ms-border-radius: 0px;
+            border-radius: 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+<div class="content">
+    <div class="container">
+
+        <div class="">
+            <div class="row-fluid">
+
+                <div class="col-md-2" style="padding-left: 0px;">
+                    <div class="well menuSideBar" style="padding: 8px 0px;">
+                        <ul class="nav nav-list" id="menuSideBar">
+                            <li class="nav-header">导航菜单</li>
+                            <li class="nav-divider"></li>
+                            <li mid="tab1" funurl="./sample/1/index.html"><a tabindex="-1" href="javascript:void(0);">基本列表</a></li>
+                            <li mid="tab2" funurl="http://www.sohu.com"><a tabindex="-1" href="javascript:void(0);">带合计值的列表</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-10" id="mainFrameTabs" style="padding : 0px;">
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active noclose noSort"><a href="#bTabs_navTabsMainPage" data-toggle="tab">首页</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="bTabs_navTabsMainPage">
+                            <div class="page-header">
+                                <h2 style="font-size: 31.5px;text-align: center;font-weight: normal;">欢迎使用Extjs Sample</h2>
+                            </div>
+                            <div style="text-align: center;font-size: 20px;line-height: 20px;">
+
+                                <p>
+                                    # extjsFrontPageSample
+                                </p>
+                                <p>
+                                    使用Extjs开发的前台页面 包括在开发中经常用到的操作和界面,提供快速学习使用EXTJS的例子
+                                </p>
+                                <p>
+                                    <br/>
+                                </p>
+                                <p>
+                                    具体包括&nbsp;
+                                </p>
+                                <p>
+                                    &nbsp;布局&nbsp;
+                                </p>
+                                <p>
+                                    &nbsp; &nbsp; 整体viewport
+                                </p>
+                                <p>
+                                    &nbsp; &nbsp; border布局
+                                </p>
+                                <p>
+                                    &nbsp; &nbsp; column布局
+                                </p>
+                                <p>
+                                    &nbsp; &nbsp; 其他布局
+                                </p>
+                                <p>
+                                    &nbsp;查询列表
+                                </p>
+                                <p>
+                                    &nbsp; &nbsp; 一般查询列表
+                                </p>
+                                <p>
+                                    &nbsp; &nbsp; 分组、锁定分组查询列表
+                                </p>
+                                <p>
+                                    &nbsp; &nbsp; 带合计、并可以定制合计内容的查询列表
+                                </p>
+                                <p>
+                                    &nbsp;列表导出功能
+                                </p>
+                                <p>
+                                    &nbsp;查询的panel
+                                </p>
+                                <p>
+                                    &nbsp; &nbsp; 包括查询 重置 导出按钮
+                                </p>
+                                <p>
+                                    &nbsp;窗口
+                                </p>
+                                <p>
+                                    &nbsp; &nbsp; 包括单个Form的窗口
+                                </p>
+                                <p>
+                                    &nbsp; &nbsp; 多个页签的窗口
+                                </p>
+                                <p>
+                                    &nbsp; &nbsp; 单个Form和一个grid的窗口(对应后台的子母表)
+                                </p>
+                                <p>
+                                    &nbsp; &nbsp; grid可以弹出子窗口，并可以对grid进行前台的增删改操作
+                                </p>
+                                <p>
+                                    &nbsp;表单
+                                </p>
+                                <p>
+                                       &nbsp; &nbsp; &nbsp;表单中各项field的联动 包括下拉框二级联动 多个field设置值
+                                </p>
+                                <p>
+                                    &nbsp; &nbsp; &nbsp;表单中多个类型的field 及常用的属性
+                                </p>
+                                <p>
+                                    &nbsp; &nbsp; &nbsp;多种日期时间输入框
+                                </p>
+                                <p>
+                                    &nbsp; &nbsp; &nbsp;联想输入框&nbsp;
+                                </p>
+                                <p>
+                                    &nbsp; &nbsp; &nbsp;树状输入框
+                                </p>
+                                <p>
+                                    &nbsp; 树形panel
+                                </p>
+                                <p>
+                                    &nbsp;&nbsp;
+                                </p>
+                                <p>
+                                    <span class="Apple-tab-span" style="white-space: pre;">	</span>以上各种控件的联动 包括查询 新增 列表刷新等。
+                                </p>
+                                <p>
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./resources/bTabs-master/b.tabs.js"></script>
+
+<script>
+    $('a',$('#menuSideBar')).on('click', function(e) {
+        e.stopPropagation();
+        var li = $(this).closest('li');
+        var menuId = $(li).attr('mid');
+        var url = $(li).attr('funurl');
+        var title = $(this).text();
+        //校验登录是否超时，通常使用ajax访问服务端测试登录是否超时
+        //若页面端已有超时自动跳转的处理，则不需要设置该回调
+        var checkLogin = function(){
+        };
+//        $('#mainFrameTabs').bTabsAdd(menuId,title,url,checkLogin);
+        $('#mainFrameTabs').bTabsAdd(menuId,title,url);
+
+    });
+
+    //插件的初始化
+    $('#mainFrameTabs').bTabs({
+        //登录界面URL，用于登录超时后的跳转
+        'loginUrl' : 'http://www.baidu.com',
+        //用于初始化主框架的宽度高度等，另外会在窗口尺寸发生改变的时候，也自动进行调整
+        'resize' : function(){
+            //这里只是个样例，具体的情况需要计算
+            $('#mainFrameTabs').height(1000);
+        }
+    });
+</script>
+</body>
+</html>

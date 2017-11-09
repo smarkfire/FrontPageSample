@@ -1,40 +1,4 @@
-/**
- * Created by Administrator on 2017/7/7.
- */
 
-/**
- * 提示
- * @param field
- * @param t
- */
-var meFieldTip = function (field, t) {
-    Ext.QuickTips.init();
-    Ext.QuickTips.register({
-        target: field.el,
-        text: field.getValue()
-    })
-};
-var meUpdateTip = function(field){
-    Ext.QuickTips.init();
-    if(field.rendered){
-        field.getEl().dom.setAttribute("ext:qtip", field.getValue());
-    }
-};
-var checkSaveMsg = function(win,other){
-    Ext.Msg.alert('提示', "保存失败，请检查输入项");
-}
-var quitWin = function(win,isView,other){
-    if(!isView ){
-        Ext.MessageBox.confirm('提示', '系统将退出当前页面，如果信息未保存将会丢失，是否退出？', function (button) {
-            if (button == 'yes') {
-                win.close();
-            }
-        });
-    }
-    else{
-        win.close();
-    }
-}
 /**
  * 将合并的单元格拆开，以便可以重新合并
  */

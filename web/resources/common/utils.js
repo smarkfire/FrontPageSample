@@ -1,19 +1,4 @@
-/**
- * Created by Administrator on 2017/7/7.
- */
-MyApp = {};
-MyApp.getContext = function() {
-    var base = document.getElementsByTagName('base')[0];
-    if (base && base.href && (base.href.length > 0)) {
-        base = base.href;
-    } else {
-        base = document.URL;
-    }
-    var count = base.indexOf("/", base.indexOf("//") + 2) + 1;
-    var base_1 = base.substr(count);
-    var count_1 = base_1.indexOf("/");
-    return "/"+base_1.substr(0, count_1);
-};
+
 var appMsg = {
     CANCEL_OK:'撤销成功！',
     GETBACK_OK:'撤回成功！',
@@ -38,4 +23,8 @@ function parse_url() {
         parames[b] = c;
     });
     return parames;
-};
+}
+var common={
+    pageSize:15
+
+}
