@@ -118,7 +118,8 @@ Ext.define("Example.view.Query", {
             { xtype: 'tbseparator', width: 5},
             {
                 xtype: 'button',
-                iconCls: 'x-btn-ico-seach',
+                iconCls: 'Zoom',
+                // iconCls: 'x-btn-ico-seach',
                 action : 'query',
                 text: '查询',
                 handler: function(button, event) {
@@ -132,7 +133,7 @@ Ext.define("Example.view.Query", {
                 handler: function(button, event) {
                     button.up('form').getForm().reset();
                 },
-                iconCls: 'x-btn-ico-reset',
+                iconCls: 'Pagepaintbrush',
                 text: '重置'
             }
         ];

@@ -90,7 +90,7 @@ Ext.define("Example.view.List", {
                     },
 
                     {
-                        iconCls: 'Applicationedit',
+                        iconCls: 'bik',
                         handler: function (aGrid, aRowIndex, aColIndex, aItem, aEvent, aRecord) {
                             me.delete(aRecord);
                         }
@@ -148,7 +148,7 @@ Ext.define("Example.view.List", {
             layout: 'hbox',
             items: [
                 {
-                    iconCls: 'x-btn-ico-add',
+                    iconCls: 'Add',
                     xtype: 'button',
                     action: 'add',
                     itemId: 'addBtn',
@@ -158,7 +158,7 @@ Ext.define("Example.view.List", {
                     }
                 },
                 {
-                    iconCls: 'x-btn-ico-add',
+                    iconCls: 'Arrowdown',
                     xtype: 'button',
                     text: '导出',
                     handler: function () {

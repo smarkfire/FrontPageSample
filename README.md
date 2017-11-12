@@ -2,7 +2,7 @@
     # extjsFrontPageSample
 </p>
 <p>
-    使用Extjs开发的前台页面 包括在开发中经常用到的操作和界面,提供快速学习使用EXTJS的例子
+    使用Extjs AngularJs、react vue 等技术分别开发的企业系统前台页面 包括在开发中经常用到的操作和界面,提供快速学习使用
 </p>
 <p>
     <br/>
