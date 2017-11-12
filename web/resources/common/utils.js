@@ -28,3 +28,7 @@ var common={
     pageSize:15
 
 }
+var currentUser = {
+    name:'清风',
+    id:'qingfeng'
+}

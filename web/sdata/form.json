@@ -1,0 +1,28 @@
+{
+  "data": {
+    "id": "8a01bd055d2f8a73015d2f8ee8790002",
+    "unit": "电视中心",
+    "dept": "界面组",
+    "unitId": "8a00100e4208a4f6014208b1361649e3",
+    "deptId": "8a00100e4208a4f6014208b1213f0dd2",
+    "creator": "张**03",
+    "creatorId": "8a00100e4208a4f6014208c137181255",
+    "contact": "恩恩",
+    "memo": null,
+    "model": null,
+    "createTime": 1499741481000,
+    "modifier": "杨忠",
+    "modifyTime": 1510121799000,
+    "modifierId": "8a00100e4208a4f6014208c1346b7596",
+    "city": "8a00100e4208a4f6014208b136184a27",
+    "tel": "2323",
+    "signame": "1",
+    "setuplocation": "ee",
+    "setupunit": "10017904",
+    "invalid": "1",
+    "setupdate": "2017-07-11",
+    "lastedittime": null
+  },
+  "message": "",
+  "success": true
+}
